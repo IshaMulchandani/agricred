@@ -51,3 +51,57 @@
 .sec1-btns button:hover{
     box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
 }
+.line{
+    width: 5px;
+    height: 65vh;
+    background-color: grey;
+}
+.sec2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sec2-1, .sec2-2{
+    padding: 2rem;
+}
+
+.investors, .business{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sec2-1{
+    width: 50%;
+}
+
+.sec2-1 img{
+    width: 100%;
+}
+.investorTxt, .businessTxt{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.home2-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.home2-btns button{
+    background-color: white;
+    border: 1px solid grey;
+    height: 6vh;
+    width: 12vw;
+    border-radius: 10px;
+    font-size: small;
+}
+
+#investor-btn{
+    background-color: rgba(0,255,0,0.3);
+    border: 2px solid green;
+}
+.businessTxt{
+    display: none;
+}
