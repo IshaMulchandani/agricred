@@ -1,0 +1,53 @@
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imgSec img{
+    height: 85vh;
+    width: 90%;
+    
+}
+
+.imgSec{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.textSec{
+    width: 50%;
+    margin: 2rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 75vh;
+}
+
+#smalltxt{
+    font-size: x-small;
+}
+.info p{
+    font-size: smaller
+}
+
+.sec1-btns{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 30%;
+}
+.sec1-btns button{
+    height: 6vh;
+    width: 12vw;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+}
+
+.sec1-btns button:hover{
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+}
