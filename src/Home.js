@@ -10,6 +10,9 @@ import icon4 from './Assets/icon4.png'
 import icon5 from './Assets/icon5.png'
 import icon6 from './Assets/icon6.png'
 import sat_img from './Assets/sat_img.png'
+import sec5_img1 from './Assets/sec5_img1.png'
+import sec5_img2 from './Assets/sec5_img2.png'
+import sec5_img3 from './Assets/sec5_img3.png'
 
 export default function Home(){
     const investorClick=()=>{
@@ -146,6 +149,20 @@ export default function Home(){
                     </div>
                     <div className="sec4-img">
                         <img src={sat_img} alt="" />
+                    </div>
+                </div>
+                <div className="sec5">
+                    <div className="sec5-img" id="sec5-img1">
+                        <h3>Instant Information Support</h3>
+                        <img src={sec5_img1} alt="" />
+                    </div>
+                    <div className="sec5-img" id="sec5-img2">
+                        <h3>Access to financial services marketplace</h3>
+                        <img src={sec5_img2} alt="" />
+                    </div>
+                    <div className="sec5-img" id="sec5-img3">
+                        <h3>AI-Driven credit risk evaluation</h3>
+                        <img src={sec5_img3} alt="" />
                     </div>
                 </div>
             </div>

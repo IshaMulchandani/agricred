@@ -163,10 +163,32 @@
     justify-content: center;
 }
 
-/* .sec4-img{
-    position: absolute;
-    right: 10%;
-    top: 230vh;
-    transform: translateY(-50%);
-} */
+.sec5{
+    position: relative;
+    top: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 
+}
+.sec5-img img{
+    width: 21.5vw;
+}
+.sec5-img h3{
+    width: 20vw;
+    font-size: large;
+    padding: 0.5rem;
+    color: white;
+    background-color: green;
+    margin: 0;
+    height: 12vh;
+}
+.sec5-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#sec5-img1, #sec5-img3{
+    flex-direction: column-reverse;
+}
