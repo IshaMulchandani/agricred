@@ -105,3 +105,68 @@
 .businessTxt{
     display: none;
 }
+
+.offer img{
+    width: 4vw;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: green;
+}
+
+.offers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.sec3 h1,.sec3 h5{
+    margin-left: 2rem !important;
+    margin: 0;
+}
+
+.sec3 h5{
+    margin-bottom: 2rem !important;
+    color: grey;
+}
+
+.sec4{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: green;
+    height: fit-content;
+    margin-top: 2rem;
+    position: relative;
+    top: 5vh;
+}
+
+.sec4-1{
+    color: white;
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 50vh;
+}
+.sec4-1 h2{
+    color: white;
+}
+
+.sec4-1 p{
+    height: 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .sec4-img{
+    position: absolute;
+    right: 10%;
+    top: 230vh;
+    transform: translateY(-50%);
+} */
+

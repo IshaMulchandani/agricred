@@ -3,6 +3,13 @@ import './Home.css'
 import Header from './Header'
 import homeimg1 from './Assets/Frame 41.jpg'
 import homeimg2 from './Assets/Frame 40.png'
+import icon1 from './Assets/icon1.jpg'
+import icon2 from './Assets/icon2.jpg'
+import icon3 from './Assets/icon3.png'
+import icon4 from './Assets/icon4.png'
+import icon5 from './Assets/icon5.png'
+import icon6 from './Assets/icon6.png'
+import sat_img from './Assets/sat_img.png'
 
 export default function Home(){
     const investorClick=()=>{
@@ -100,6 +107,45 @@ export default function Home(){
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="sec3">
+                    <h1>What Agricred offers</h1>
+                    <h5>Streamlines and accelerates the growth of agricultural finance.</h5>
+                    <div className="offers">
+                        <div className="offer" id="offer1">
+                            <img src={icon1} alt="" />
+                            <h4>24 Hrs Disbursal to Seller</h4>
+                        </div>
+                        <div className="offer" id="offer2">
+                            <img src={icon2} alt="" />
+                            <h4>100% Truly Digital Platform</h4>
+                        </div>
+                        <div className="offer" id="offer3">
+                            <img src={icon3} alt="" />
+                            <h4>Flexible Repayment for Buyers</h4>
+                        </div>
+                        <div className="offer" id="offer4">
+                            <img src={icon4} alt="" />
+                            <h4>Collateral Free Financing</h4>
+                        </div>
+                        <div className="offer" id="offer5">
+                            <img src={icon5} alt="" />
+                            <h4>Best Discounting Rates</h4>
+                        </div>
+                        <div className="offer" id="offer6">
+                            <img src={icon6} alt="" />
+                            <h4>AI Credit Risk Evaluation</h4>
+                        </div>
+                    </div>
+                </div>
+                <div className="sec4">
+                    <div className="sec4-1">
+                        <h2>Global Coverage</h2>
+                        <p>Agricred leverages satellite imagery to gather comprehensive, real-time data from farms across the globe. This technology allows us to monitor farm conditions, track crop health, soil quality, weather patterns, and more, regardless of the location. It ensures that farmers from all over the world can benefit from accurate, timely insights</p>
+                    </div>
+                    <div className="sec4-img">
+                        <img src={sat_img} alt="" />
                     </div>
                 </div>
             </div>
